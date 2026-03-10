@@ -25,7 +25,6 @@ git clone https://github.com/rahiqraees/spotifind-r.git
 cd spotifind-r
 ```
 
-Then open `app.R` in RStudio.
 
 ---
 
