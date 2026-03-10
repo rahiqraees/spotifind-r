@@ -13,6 +13,7 @@ df$duration_s <- round(df$duration_ms / 1000, 1)
 
 genres <- c("All", sort(unique(na.omit(df$playlist_genre))))
 
+
 ui <- page_sidebar(
   title = "🎵 Spotifind — Spotify Song Explorer",
   theme = bs_theme(bootswatch = "flatly", primary = "#0d6efd"),
@@ -70,7 +71,7 @@ ui <- page_sidebar(
   ),
   
   p(
-    HTML("Spotifind | Data: TidyTuesday Spotify Songs | Authors: Rahiq Raees, Nguyen Nguyen, Shuhang Li, Jose Davila | <a href='https://github.com/UBC-MDS/DSCI-532_2026_37_Spotifind' target='_blank'>GitHub Repo</a> | Individual Assignment R Version"),
+    HTML("Spotifind | Data: TidyTuesday Spotify Songs | Author: Rahiq Raees | <a href='https://github.com/rahiqraees/spotifind-r' target='_blank'>GitHub Repo</a> | Individual Assignment R Version"),
     style = "color: grey; font-size: 0.8em; text-align: center; margin-top: 1rem;"
   )
 )
