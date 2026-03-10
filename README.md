@@ -37,6 +37,8 @@ install.packages("renv")
 renv::restore()
 ```
 
+If R restarts automatically, run `renv::restore()` once more to finish installing all packages.
+
 ---
 
 ## Running the App Locally
