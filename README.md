@@ -4,7 +4,7 @@ A Shiny for R re-implementation of the [Spotifind](https://019c9734-80f7-7726-68
 
 Spotifind lets users explore Spotify songs by filtering on audio features like energy, danceability, valence (mood), and popularity. Useful for DJs, sound technicians, and music enthusiasts interested in the technical side of music.
 
-**Deployed app:** <!-- add your Posit Connect Cloud URL here -->
+**Deployed app:** [<!-- add your Posit Connect Cloud URL here -->](https://019cda18-cfc5-a463-763e-3618b866ec64.share.connect.posit.cloud)
 
 ---
 
