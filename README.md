@@ -4,7 +4,7 @@ A Shiny for R re-implementation of the [Spotifind](https://019c9734-80f7-7726-68
 
 Spotifind lets users explore Spotify songs by filtering on audio features like energy, danceability, valence (mood), and popularity. Useful for DJs, sound technicians, and music enthusiasts interested in the technical side of music.
 
-**Deployed app:** https://019cda18-cfc5-a463-763e-3618b866ec64.share.connect.posit.cloud
+**Deployed app:** [app](https://019cda18-cfc5-a463-763e-3618b866ec64.share.connect.posit.cloud)
 
 ---
 
@@ -18,7 +18,7 @@ The app loads the dataset directly from GitHub — no manual download needed.
 
 ## Installation
 
-This project uses [`renv`](https://rstudio.github.io/renv/) to manage package dependencies.
+This project uses [`renv`](https://rstudio.github.io/renv/) to manage package dependencies. Run the following in the **R Console**:
 
 ```r
 install.packages("renv")
@@ -29,14 +29,10 @@ renv::restore()
 
 ## Running the App Locally
 
+In the **R Console**, run:
+
 ```r
 shiny::runApp("app.R")
-```
-
-Or from the terminal:
-
-```bash
-Rscript -e "shiny::runApp('app.R')"
 ```
 
 ---
