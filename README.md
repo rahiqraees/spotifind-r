@@ -16,6 +16,19 @@ The app loads the dataset directly from GitHub — no manual download needed.
 
 ---
 
+## Getting Started
+
+Clone the repository and open it in RStudio:
+
+```bash
+git clone https://github.com/rahiqraees/spotifind-r.git
+cd spotifind-r
+```
+
+Then open `app.R` in RStudio.
+
+---
+
 ## Installation
 
 This project uses [`renv`](https://rstudio.github.io/renv/) to manage package dependencies. Run the following in the **R Console**:
