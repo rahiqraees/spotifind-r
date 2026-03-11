@@ -37,7 +37,7 @@ install.packages("renv")
 renv::restore()
 ```
 
-If prompted with "How would you like to proceed?", select 1 to activate the project. If R restarts automatically, run renv::restore() once more to finish installing all packages.
+If prompted with "How would you like to proceed?", select 1 to activate the project. If R restarts automatically, run `renv::restore()` once more to finish installing all packages.
 
 ---
 
